@@ -1,0 +1,121 @@
+[
+    {
+        "CalEvent": {
+            "title": "Private Appointment",
+            "date": "2022-03-15T00:00:00+00:00",
+            "duration": 86400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Private Appointment",
+            "date": "2022-03-15T08:00:00+00:00",
+            "duration": 3000.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Step",
+            "date": "2022-03-16T09:30:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Beth",
+            "date": "2022-03-16T11:00:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "mum and Pat",
+            "date": "2022-03-16T13:00:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-03-16T18:30:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-03-17T09:30:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "CPS drinks",
+            "date": "2022-03-17T16:30:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Curry with Mike, James, Carl",
+            "date": "2022-03-17T19:30:00+00:00",
+            "duration": 12600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "PT",
+            "date": "2022-03-18T08:00:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Hayley pick up Layla",
+            "date": "2022-03-18T16:00:00+00:00",
+            "duration": 1800.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Private Appointment",
+            "date": "2022-03-18T17:30:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Drinks with Chris D",
+            "date": "2022-03-18T19:30:00+00:00",
+            "duration": 9000.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-03-20T08:30:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "PT",
+            "date": "2022-03-20T09:30:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "F1",
+            "date": "2022-03-20T19:30:00+00:00",
+            "duration": 7200.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Private Appointment",
+            "date": "2022-03-22T08:00:00+00:00",
+            "duration": 3000.0
+        }
+    }
+]

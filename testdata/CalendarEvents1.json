@@ -1,0 +1,107 @@
+[
+    {
+        "CalEvent": {
+            "title": "Private Appointment",
+            "date": "2022-03-08T08:00:00+00:00",
+            "duration": 3000.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-03-09T18:30:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Issue resolution catch-up",
+            "date": "2022-03-09T10:45:00+00:00",
+            "duration": 2700.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-03-13T08:30:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "PT",
+            "date": "2022-03-11T08:00:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "PT",
+            "date": "2022-03-13T09:30:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Private Appointment",
+            "date": "2022-03-06T00:00:00+00:00",
+            "duration": 86400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "10K",
+            "date": "2022-03-06T09:00:00+00:00",
+            "duration": 10800.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "PT",
+            "date": "2022-03-07T12:00:00+00:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Beth",
+            "date": "2022-03-07T14:00:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-03-08T09:30:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Swimming",
+            "date": "2022-03-08T19:00:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Step",
+            "date": "2022-03-09T09:30:00+00:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Chinese With James and Carl",
+            "date": "2022-03-10T19:30:00+00:00",
+            "duration": 14400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Sussex Open Day",
+            "date": "2022-03-12T00:00:00+00:00",
+            "duration": 86400.0
+        }
+    }
+]
