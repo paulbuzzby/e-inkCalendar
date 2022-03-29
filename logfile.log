@@ -1,0 +1,25 @@
+2022-03-29 16:51:52,004 INFO - Starting daily calendar update
+2022-03-29 16:51:52,005 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': False, 'calendars': ['primary']}
+2022-03-29 16:51:52,005 INFO - Starting daily calendar update
+2022-03-29 16:51:52,005 ERROR - GetCalendarFile() missing 1 required positional argument: 'url'
+2022-03-29 16:51:52,006 INFO - Completed daily calendar update
+2022-03-29 16:51:59,529 INFO - Starting daily calendar update
+2022-03-29 16:51:59,530 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': False, 'calendars': ['primary']}
+2022-03-29 16:51:59,531 INFO - Starting daily calendar update
+2022-03-29 16:51:59,531 ERROR - GetCalendarFile() missing 1 required positional argument: 'url'
+2022-03-29 16:51:59,532 INFO - Completed daily calendar update
+2022-03-29 16:52:38,648 INFO - Starting daily calendar update
+2022-03-29 16:52:38,649 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': False, 'calendars': ['primary']}
+2022-03-29 16:52:38,650 INFO - Starting daily calendar update
+2022-03-29 16:52:38,650 INFO - GetCalendarFile Entry https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics
+2022-03-29 16:52:43,503 INFO - Completed daily calendar update
+2022-03-29 16:52:52,804 INFO - Starting daily calendar update
+2022-03-29 16:52:52,805 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': False, 'calendars': ['primary']}
+2022-03-29 16:52:52,806 INFO - Starting daily calendar update
+2022-03-29 16:52:52,806 INFO - GetCalendarFile Entry https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics
+2022-03-29 16:52:55,351 INFO - Completed daily calendar update
+2022-03-29 16:55:03,895 INFO - Starting daily calendar update
+2022-03-29 16:55:03,896 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': False, 'calendars': ['primary']}
+2022-03-29 16:55:03,896 INFO - Starting daily calendar update
+2022-03-29 16:55:03,896 INFO - GetCalendarFile Entry https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics
+2022-03-29 16:55:05,152 INFO - Completed daily calendar update

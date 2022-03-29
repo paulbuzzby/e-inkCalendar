@@ -38,7 +38,7 @@ def main() :
     try :
         logger.info("Starting daily calendar update")
 
-        calendarFile = GetCalendarFile(icsLocation)
+        calendarFile = GetCalendarFile(logger, icsLocation)
         calEvents = ExtractCalendarEvents(calendarFile, start_date, end_date)
 
         eventsImage = BuildEvents(calEvents)
