@@ -12,7 +12,7 @@ from iCalendarHelper import *
 from my_cal_events import myCalEvent
 import ImageCreator
 
-logger = logging.getLogger('fridgeCal')
+logger = logging.getLogger('eInkCalendar')
 logger.addHandler(logging.StreamHandler(sys.stdout))  # print logger to stdout
 logger.setLevel(logging.INFO)
 

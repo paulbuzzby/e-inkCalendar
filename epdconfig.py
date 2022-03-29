@@ -43,11 +43,18 @@ class RaspberryPi:
     BUSY_PIN        = 24
 
     def __init__(self):
-        import spidev
-        import RPi.GPIO
+        # https://github.com/TCAllen07/raspi-device-mocks
 
-        self.GPIO = RPi.GPIO
-        self.SPI = spidev.SpiDev()
+        try:
+            import spidev
+            import RPi.GPIO
+
+            self.GPIO = RPi.GPIO
+            self.SPI = spidev.SpiDev()
+        except ImportError:
+            from rpidevmocks import MockGPIO, MockSPI
+            self.GPIO = MockGPIO()
+            self.SPI = MockSPI()
 
     def digital_write(self, pin, value):
         self.GPIO.output(pin, value)

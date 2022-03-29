@@ -102,3 +102,10 @@ def BuildEvents(events : List[myCalEvent]) -> Image :
     imgs_comb = append_images(eventImages,"virtical")
 
     return imgs_comb
+
+def AddBattery(img : image, batteryLevel) -> image:
+    
+    d = ImageDraw.Draw(img)
+    d.text((400,2), 'Battery {:.0f}%'.format(batteryLevel), font=fntError, fill=textColour)
+
+    return img

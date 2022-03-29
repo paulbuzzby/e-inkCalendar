@@ -1,6 +1,7 @@
 import os
 from datetime import datetime, timedelta
 from helpers import *
+from power import PowerHelper
 
 
 today = datetime.now()
@@ -18,3 +19,8 @@ directory = os.path.dirname(__file__)
 
 print(directory)
 #print(ics)
+
+powerService = PowerHelper()
+
+currBatteryLevel = powerService.get_battery()
+print('Battery level at start: {:.0f}%'.format(currBatteryLevel))

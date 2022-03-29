@@ -6,6 +6,8 @@ import sys
 
 from ImageCreator import *
 from iCalendarHelper import *
+import epd7in5_V2
+from power import PowerHelper
 
 #Battery Display
 #Error information if occurs
@@ -15,7 +17,7 @@ def main() :
         
     # Create and configure logger
     logging.basicConfig(filename="logfile.log", format='%(asctime)s %(levelname)s - %(message)s', filemode='a')
-    logger = logging.getLogger('fridgeCal')
+    logger = logging.getLogger('eInkCalendar')
     logger.addHandler(logging.StreamHandler(sys.stdout))  # print logger to stdout
     logger.setLevel(logging.INFO)
     logger.info("Starting daily calendar update")
@@ -37,16 +39,39 @@ def main() :
 
     try :
         logger.info("Starting daily calendar update")
+        
+        powerService = PowerHelper()
+        currBatteryLevel = powerService.get_battery()
+        logger.info('Battery level at start: {:.3f}'.format(currBatteryLevel))
 
+        
         calendarFile = GetCalendarFile(logger, icsLocation)
         calEvents = ExtractCalendarEvents(calendarFile, start_date, end_date)
 
         eventsImage = BuildEvents(calEvents)
 
+        eventsImage = AddBattery(eventsImage,currBatteryLevel)
+
         #eventsImage.show()       
 
+        epd = epd7in5_V2.EPD()
+        
+        logging.info("init and Clear")
+        epd.init()
+        epd.Clear()        
 
+        epd.display(epd.getbuffer(eventsImage))        
 
+        logging.info("Goto Sleep...")
+        epd.sleep()
+        
+    except IOError as e:
+        logging.info(e)
+        
+    except KeyboardInterrupt:    
+        logging.info("ctrl + c:")
+        epd7in5_V2.epdconfig.module_exit()
+        exit()
 
     except Exception as e:
         logger.error(e)

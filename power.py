@@ -4,7 +4,7 @@ import logging
 class PowerHelper:
 
     def __init__(self):
-        self.logger = logging.getLogger('fridgeCal')
+        self.logger = logging.getLogger('eInkCalendar')
 
     def get_battery(self):
         # start displaying on eink display
