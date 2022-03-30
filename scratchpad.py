@@ -22,5 +22,15 @@ print(directory)
 
 powerService = PowerHelper()
 
-currBatteryLevel = powerService.get_battery()
-print('Battery level at start: {:.0f}%'.format(currBatteryLevel))
+#currBatteryLevel = powerService.get_battery()
+#print('Battery level at start: {:.0f}%'.format(currBatteryLevel))
+#print(today.now().astimezone().replace(microsecond=0).isoformat())
+#batteryDate = datetime.fromisoformat("2022-03-30T16:02:09+01:00")
+
+print(powerService.get_RTC_time())
+print(today.minute)
+print(0 <= today.minute <= 5)
+print(today.minute in range(55,59))
+
+#2022-03-30T16:02:03+01:00
+#2022-03-30T16:02:09+01:00

@@ -25,7 +25,7 @@ fntBold = ImageFont.truetype(os.path.join(fontdir, 'OpenSans-Bold.ttf'), 20)
 fntlarge = ImageFont.truetype(os.path.join(fontdir, 'OpenSans-Regular.ttf'), 20)
 fntTime = ImageFont.truetype(os.path.join(fontdir, 'OpenSans-Regular.ttf'), 15)
 fntEventSummary = ImageFont.truetype(os.path.join(fontdir, 'OpenSans-Regular.ttf'), 22)
-fntError = ImageFont.truetype(os.path.join(fontdir, 'OpenSans-Regular.ttf'), 10)
+fntError = ImageFont.truetype(os.path.join(fontdir, 'OpenSans-Regular.ttf'), 12)
 
 #Create the day header and return the image
 def CreateDayHeader(x: myCalEvent) -> Image:

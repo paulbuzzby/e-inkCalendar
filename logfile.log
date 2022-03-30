@@ -45,3 +45,28 @@
 2022-03-29 18:17:25,414 INFO - Battery level at start: 95.981
 2022-03-29 18:17:25,416 INFO - GetCalendarFile Entry https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics
 2022-03-29 18:17:41,032 INFO - Completed daily calendar update
+2022-03-30 15:45:58,583 INFO - Starting daily calendar update
+2022-03-30 15:45:58,594 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': False, 'calendars': ['primary']}
+2022-03-30 15:45:58,596 INFO - Starting daily calendar update
+2022-03-30 15:45:58,805 INFO - Battery level at start: 85.454
+2022-03-30 15:45:58,807 INFO - GetCalendarFile Entry https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics
+2022-03-30 15:46:15,746 INFO - Completed daily calendar update
+2022-03-30 15:48:01,228 INFO - Starting daily calendar update
+2022-03-30 15:48:01,241 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': False, 'calendars': ['primary']}
+2022-03-30 15:48:01,243 INFO - Starting daily calendar update
+2022-03-30 15:48:01,413 INFO - Battery level at start: 84.003
+2022-03-30 15:48:01,417 INFO - GetCalendarFile Entry https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics
+2022-03-30 15:48:16,790 INFO - Completed daily calendar update
+2022-03-30 16:21:57,914 INFO - Starting daily calendar update
+2022-03-30 16:21:57,925 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': False}
+2022-03-30 16:21:57,928 INFO - Starting daily calendar update
+2022-03-30 16:21:58,078 INFO - Battery level at start: 96.863
+2022-03-30 16:21:58,080 INFO - GetCalendarFile Entry https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics
+2022-03-30 16:23:06,561 INFO - Completed daily calendar update
+2022-03-30 16:23:33,755 INFO - Starting daily calendar update
+2022-03-30 16:23:33,767 INFO - JSON config loaded {'icsURL': 'https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics', 'dayToCapture': 8, 'shutdownOnUpdate': True}
+2022-03-30 16:23:33,771 INFO - Starting daily calendar update
+2022-03-30 16:23:33,934 INFO - Battery level at start: 96.551
+2022-03-30 16:23:33,938 INFO - GetCalendarFile Entry https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics
+2022-03-30 16:23:59,158 INFO - Configured to shutdown after update
+2022-03-30 16:24:01,972 INFO - Completed daily calendar update
