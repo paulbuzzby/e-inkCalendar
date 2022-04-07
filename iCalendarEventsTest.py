@@ -21,7 +21,7 @@ directory = os.path.dirname(__file__)
 #ics = open(os.path.join(directory, 'issue_53_parsing_failure.ics'),'rb')
 
 url = "https://outlook.live.com/owa/calendar/b15d0f2b-8803-4a05-beef-eb741989a5a0/1233b3bf-dd08-4cdc-a6d8-6ffe111e6422/cid-D326965B3EECB4FA/calendar.ics"
-url = os.path.join(directory, 'testdata\calendar.ics')
+#url = os.path.join(directory, 'testdata\calendar.ics')
 
 if url.startswith('http') :
     ical_string = urllib.request.urlopen(url).read()

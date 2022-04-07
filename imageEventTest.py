@@ -5,7 +5,7 @@ import json
 from my_cal_events import myCalEvent
 import ImageCreator
 
-testEventsFile = open("testdata\CalendarEvents.json")
+testEventsFile = open("testdata\CalendarEventsMissingDay.json")
 testEventJson = json.load(testEventsFile)
 
 testEvents = []
@@ -17,6 +17,8 @@ for x in testEventJson :
 #eventImg = ImageCreator.CreateEventEntry(testEvents[1])
 
 #eventImg.show()
+
+#e = ImageCreator.CheckForMissingDays(testEvents)
 
 eventImg = ImageCreator.BuildEvents(testEvents)
 eventImg.show()

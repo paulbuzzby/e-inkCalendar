@@ -5,7 +5,7 @@
 ```bash
 sudo crontab -e
 ```
- Specifically, add the following command to crontab so that the MagInkCal Python script runs each time the RPi is booted up.
+ Specifically, add the following command to crontab so that the Python script runs each time the RPi is booted up.
 ```bash
 @reboot sleep 20; cd /home/pi/e-inkCalendar && sudo python3 main.py &
 ```

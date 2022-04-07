@@ -58,8 +58,9 @@ def CreateEventEntry(x: myCalEvent) -> Image:
     img = Image.new('RGB', (width, eventHeight), color = backColour)
 
     d = ImageDraw.Draw(img)
-    d.text((10,5), eventTime, font=fntTime, fill=textColour)
-    d.text((10,25), eventDuration, font=fntTime, fill=textColour)
+    if x.evTitle != "No Events" :
+        d.text((10,5), eventTime, font=fntTime, fill=textColour)
+        d.text((10,25), eventDuration, font=fntTime, fill=textColour)
 
     d.text((80,7), x.evTitle, font=fntEventSummary, fill=textColour)
 
@@ -80,6 +81,8 @@ def BuildEvents(events : List[myCalEvent]) -> Image :
     dayHeaderCreated = False
     eventImages = []
     heightCount = 0
+
+    events = CheckForMissingDays(events)
 
     for e in sorted(events):
         
@@ -102,6 +105,32 @@ def BuildEvents(events : List[myCalEvent]) -> Image :
     imgs_comb = append_images(eventImages,"virtical")
 
     return imgs_comb
+
+def CheckForMissingDays(events : List[myCalEvent]) -> List[myCalEvent] :
+
+    first = True
+    lastDay = date.today()
+    nextDay = date.today()
+    newEvents = []
+
+    for e in sorted(events):
+
+        if first :
+            lastDay = e.evDate.date()
+            nextDay = lastDay + timedelta(days=1)
+            first = False
+        
+        if not first :
+            if e.evDate.date() != lastDay and e.evDate.date() != nextDay :
+                newEvents.append(myCalEvent("No Events",nextDay,timedelta(hours=0)))                
+        
+        lastDay = e.evDate.date()
+        nextDay = lastDay + timedelta(days=1)
+        
+        newEvents.append(e)
+
+
+    return sorted(newEvents)
 
 def AddBattery(img : image, batteryLevel) -> image:
     

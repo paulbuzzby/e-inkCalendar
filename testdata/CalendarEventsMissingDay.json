@@ -1,0 +1,107 @@
+[
+    {
+        "CalEvent": {
+            "title": "Private Appointment",
+            "date": "2022-04-12T08:00:00+01:00",
+            "duration": 3000.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-04-13T18:30:00+01:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-04-10T08:15:00+01:00",
+            "duration": 2700.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "PT",
+            "date": "2022-04-10T09:00:00+01:00",
+            "duration": 5400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-04-12T09:30:00+01:00",
+            "duration": 2700.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "GYM",
+            "date": "2022-04-12T10:15:00+01:00",
+            "duration": 4500.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Step Class",
+            "date": "2022-04-13T09:30:00+01:00",
+            "duration": 2700.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-04-07T09:30:00+01:00",
+            "duration": 2700.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Spin",
+            "date": "2022-04-14T09:30:00+01:00",
+            "duration": 2700.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Gym",
+            "date": "2022-04-07T10:15:00+01:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Gym",
+            "date": "2022-04-14T10:15:00+01:00",
+            "duration": 3600.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Private Appointment",
+            "date": "2022-04-08T00:00:00+00:00",
+            "duration": 86400.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Drinks with Alan and Friends",
+            "date": "2022-04-08T19:00:00+01:00",
+            "duration": 10800.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Grandad Funeral",
+            "date": "2022-04-11T11:00:00+01:00",
+            "duration": 9000.0
+        }
+    },
+    {
+        "CalEvent": {
+            "title": "Beth",
+            "date": "2022-04-12T12:00:00+01:00",
+            "duration": 3600.0
+        }
+    }
+]
