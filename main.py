@@ -9,7 +9,6 @@ from iCalendarHelper import *
 import epd7in5_V2
 from power import PowerHelper
 
-#Battery Display
 #Error information if occurs
 
 
@@ -47,8 +46,11 @@ def main() :
         
         calendarFile = GetCalendarFile(logger, icsLocation)
         calEvents = ExtractCalendarEvents(calendarFile, start_date, end_date)
+        logger.info("Retrived calendar information. Number of items {}".format(len(calEvents)))
 
+        logger.info("Building image")
         eventsImage = BuildEvents(calEvents)
+        logger.info("Adding battery info")
         eventsImage = AddBattery(eventsImage,currBatteryLevel)
 
         epd = epd7in5_V2.EPD()
@@ -62,15 +64,8 @@ def main() :
         logging.info("Goto Sleep...")
         epd.sleep()
 
-        powerService.sync_time() #
-
-        if shutdownOnUpdate :
-            #as an extra safty feature check to see if it is the first 5 minutes of the hour as this is when the system will be shedulded to update
-            logger.info("Configured to shutdown after update")
-            if now.minute in range (0,5):
-                logger.info("Shutting down safely.")
-                import os
-                os.system("sudo shutdown -h now")
+        logging.info("updating clocks")
+        powerService.sync_time() #        
         
     except IOError as e:
         logging.info(e)
@@ -84,6 +79,14 @@ def main() :
         logger.error(e)
 
     logger.info("Completed daily calendar update")
+
+    if shutdownOnUpdate :
+        #as an extra safty feature check to see if it is the first 5 minutes of the hour as this is when the system will be shedulded to update
+        logger.info("Configured to shutdown after update")
+        if now.minute in range (0,5):
+            logger.info("Shutting down safely.")
+            import os
+            os.system("sudo shutdown -h now")
     
 
 if __name__ == "__main__":

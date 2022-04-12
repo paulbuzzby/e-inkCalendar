@@ -19,6 +19,7 @@ def GetCalendarFile(logger, url : str) :
         raise Exception("Calendar link must be to an ICS file or URL")
 
     if url.startswith('http') :
+        logger.info("Calendar URL is online")
         cal = urllib.request.urlopen(url).read()
     else :
         cal = open(url).read()
