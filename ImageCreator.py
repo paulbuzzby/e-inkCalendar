@@ -97,9 +97,14 @@ def BuildEvents(events : List[myCalEvent]) -> Image :
         
         eventImages.append(CreateEventEntry(e))
         heightCount += eventHeight
-
-        if heightCount > 750 :
+        
+        if heightCount > 740 :
             break
+
+
+    while heightCount > 800 :
+        i = eventImages.pop() # BUG if the last time through the loop is also a new day and height count is less than 750 it has a chance to make an image over 800
+        heightCount -= i.height
 
     eventImages.append(CreateTimestamp(heightCount))
     imgs_comb = append_images(eventImages,"virtical")
