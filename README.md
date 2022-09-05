@@ -2,11 +2,20 @@
 # e-inkCalendar
 
 This repo contains the code needed to drive a 7.5" e-ink display and act as a calendar. This project uses a battery powered (PiSugar2) Raspberry Pi Zero 2 WH (or install your own headers). Calendar events are retrived from Micrsoft Outlook.com.
-The layout is based off how the Ios Outlook client shows calendar information. This felt like the best use for the 480x800 space available in the e-ink display.
+The layout is based off how the iOS Outlook client shows calendar information. This felt like the best use for the 480x800 space available in the e-ink display.
 
 This project was inspired by [MagInkCal](https://github.com/speedyg0nz/MagInkCal/blob/main/README.md) and some of his code does appear in this project. That project uses a much bigger e-ink display and they are a lot more expensive than the display I have used here.
 
-I created this project as a way to learn python and github while building something usful. The device is magentically attached to my kitchen fridge. Updates as 6am every morning to show me todays planned events along with as many future events that can fit on the page
+I created this project as a way to learn python and github while building something usful. The device is magentically attached to my kitchen fridge. Updates as 6am every morning to show me todays planned events along with as many future events that can fit on the page.
+Battery percentage is shown in the top right so you know when to recharge and a timestamp of the last sucessful screen update is shown in the bottom left on the screen.
+
+![On the Fridge](Images/onfridge.JPEG)
+
+![Front Display](Images/frontview.JPEG)
+
+![Back Display](Images/backview.JPEG)
+
+
 
 ## Hardware Required
 - [Raspberry Pi Zero 2 WH](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) - Header pins are needed to connect to the E-Ink display. A Pi Zero 1 should also work
@@ -32,10 +41,11 @@ Features of the calendar:
 - Battery level is displayed in top right corner
 - Timestamp of when the last update occured printed on the bottom left of screen
 
-## Bugs
+## Bugs / improvement idea's
 
 - Not sure how the system handles events spanning multiple days
 - Currently only works against outlook.com calendars
+- Would like to add a button to force a refresh
 
 ## Share your outlook Calendar
 
@@ -58,6 +68,7 @@ Features of the calendar:
 1. Start by flashing [Raspberrypi OS Lite](https://www.raspberrypi.org/software/operating-systems/) to a MicroSD Card. I recommend using the Raspberry Pi Imager. You can then pre-configure Wifi and other information. A great timesaver
 
 2. Install the [PiSugar](https://github.com/PiSugar/PiSugar/wiki/PiSugar2) following their guide
+* Configure the Pi to startup at 6am everyday.
 
 3. Install the eInk libries. [Guide here](https://www.waveshare.com/wiki/7.5inch_e-Paper_HAT_Manual#Users_Guides_of_Raspberry_Pi)
 
