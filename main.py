@@ -55,23 +55,23 @@ def main() :
 
         epd = epd7in5_V2.EPD()
         
-        logging.info("init and Clear")
+        logger.info("init and Clear")
         epd.init()
         epd.Clear()        
 
         epd.display(epd.getbuffer(eventsImage))        
 
-        logging.info("Goto Sleep...")
+        logger.info("Goto Sleep...")
         epd.sleep()
 
-        logging.info("updating clocks")
+        logger.info("updating clocks")
         powerService.sync_time() #        
         
     except IOError as e:
-        logging.info(e)
+        logger.info(e)
         
     except KeyboardInterrupt:    
-        logging.info("ctrl + c:")
+        logger.info("ctrl + c:")
         epd7in5_V2.epdconfig.module_exit()
         exit()
 
