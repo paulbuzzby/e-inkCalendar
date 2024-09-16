@@ -133,3 +133,14 @@ sudo crontab -e
 ```bash
 @reboot sleep 20; cd /home/pi/e-inkCalendar && sudo python3 main.py &
 ```
+
+## Config file
+Should look like
+
+```json
+{
+    "icsURL": "",    
+    "dayToCapture": 8,
+    "shutdownOnUpdate":true
+}
+```
